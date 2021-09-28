@@ -1,0 +1,1315 @@
+body{
+    background-color: rgb(56, 42, 2);
+}
+
+.slots-container{
+    position: absolute;
+    width:70%;
+    height: 95%;
+    justify-content: center;
+    left: 15%;
+    top: 2%;
+  
+}
+
+.slots-frame{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color:rgb(54, 106, 90);
+    border-radius: 5%;
+    box-shadow: 0px 0px  1rem 1rem rgb(141, 107, 13);
+    animation: shadow 5s infinite;
+}
+
+.background img{
+    
+    position: absolute;
+    background-image: url("images/slot-background.png");
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    z-index: 0;
+    top: 10%;
+    
+    
+}
+
+@keyframes shadow {
+    0%{
+        box-shadow: 0px 0px  1rem 1rem rgb(141, 107, 13);
+    }
+    25%{
+        box-shadow: 0px 0px  1.2rem 1rem rgb(204, 151, 7);
+    }
+    50%{
+        box-shadow: 0px 0px  1rem 1rem rgb(141, 107, 13);
+    }
+    75%{
+        box-shadow: 0px 0px  1.2rem 1rem  rgb(204, 151, 7);
+    }
+    100%{
+        box-shadow: 0px 0px  1rem 1rem rgb(141, 107, 13);
+    }
+
+}
+
+.div-row img{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 32%;
+}
+
+.div-row2 img{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 62%;
+}
+
+.line-bet1 img{
+    position: absolute;
+    top: 14%;
+    left: 1.5%;
+    width: 7% ;
+    height: 14% ;
+}
+
+.line-bet2 img{
+    position: absolute;
+    top: 42%;
+    left: 1.5%;
+    width: 7% ;
+    height: 14% ;
+
+}
+
+.line-bet3 img{
+    position: absolute;
+    top: 72%;
+    left: 1.5%;
+    width: 7% ;
+    height: 14% ;
+
+}
+
+.slot-1{
+    position: absolute;
+    left: 14%;
+    top: 11%;
+    width: 9%;
+    height: 19%;
+}
+
+.slot-2{
+    position: absolute;
+    left: 45%;
+    top: 11%;
+    width: 9%;
+    height: 19%;
+}
+
+.slot-3{
+    position: absolute;
+    left: 75%;
+    top: 11%;
+    width: 9%;
+    height: 19%;
+}
+
+.slot-4{
+    position: absolute;
+    left: 14%;
+    top: 41%;
+    width: 9%;
+    height: 19%;
+}
+
+.slot-5{
+    position: absolute;
+    left: 45%;
+    top: 41%;
+    width: 9%;
+    height: 19%;
+}
+
+.slot-6{
+    position: absolute;
+    left: 75%;
+    top: 41%;
+    width: 9%;
+    height: 19%;
+}
+
+
+.slot-7{
+    position: absolute;
+    left: 14%;
+    top: 70%;
+    width: 9%;
+    height: 19%;
+}
+
+.slot-8{
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    width: 9%;
+    height: 19%;
+}
+
+.slot-9{
+    position: absolute;
+    left: 75%;
+    top: 70%;
+    width: 9%;
+    height: 19%;
+}
+
+.btn--roll{
+    position: absolute;
+    width: 14%;
+    height: 7%;
+    top: 91.5% ;
+    left: 73%;
+    display: flexbox;
+    background-color: rgb(0, 225, 86);
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    border-radius: 1rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px  1rem .2rem rgb(10, 240, 48);
+    white-space: nowrap;
+}
+
+
+
+.score {
+    position: absolute;
+    padding: 1%;
+    background-color: rgba(235, 84, 84, 1);
+    justify-content: center;
+    text-align: center;
+    top: 92%;
+    left: 13%;
+    color: aliceblue;
+    font-size: 150%;
+    letter-spacing: 5px;
+    white-space: nowrap;
+}
+
+.winnings{
+    position: absolute;
+    top: 92%;
+    left: 41%;
+    font-size: 150%;
+    color: white;
+    white-space: nowrap;
+}
+
+.restart {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    width: 4%;
+    height: 7%;
+    
+    
+}
+.restart img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: absolute;
+    position: absolute;
+    left: 40%;
+    top: -1%;
+    width:auto ;
+    height: 5%;
+    
+}
+
+.header h2 {
+    text-shadow: .1rem  .1rem 1rem  #ff1313;
+    animation: fun 5s infinite;
+    white-space: nowrap;
+}
+
+@keyframes fun {
+    0% {
+        color: rgba(255, 194, 91, 1) ;
+    }
+    25% {
+        color: rgb(255, 153, 0);
+        
+        top: 0;
+        text-shadow: .1rem  .1rem 1rem  #0caa07;
+}
+    50% {
+        color: rgba(255, 194, 91, 1) ;
+    }
+    75% {
+        color: rgb(255, 153, 0);
+        
+        top: 0;
+    }
+    100% {
+        color: rgba(255, 194, 91, 1) ;
+}
+}
+
+
+.header h2{
+    position: relative;
+    color:rgba(255, 194, 91, 1) ;
+    font-size:38px ;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    letter-spacing: 5px;
+}
+
+.lines-bet{
+    position: absolute;
+    left: 90%;
+    top: 92%;
+    color: white;
+    white-space: nowrap;
+    font-size: 150%;
+
+}
+
+.total-bet{
+    position: absolute;
+    left: 90%;
+    top: 95%;
+    color: white;
+    white-space: nowrap;
+    font-size: 150%;
+    z-index: 1;
+
+
+}
+
+@keyframes win {
+    0%{
+        box-shadow: 0px 0px  1rem 1rem rgb(13, 141, 19);
+    
+    }
+    25%{
+        box-shadow: 0px 0px  1.2rem 1rem rgb(7, 204, 7);
+        transform:translateY(-5%);
+    }
+    50%{
+        box-shadow: 0px 0px  1rem 1rem rgb(13, 141, 19);
+    }
+    75%{
+        box-shadow: 0px 0px  1.2rem 1rem  rgb(7, 204, 7);
+        
+    }
+    100%{
+        box-shadow: 0px 0px  1rem 1rem rgb(13, 141, 19);
+    }
+}
+
+.volume{
+    position: absolute;
+    width: 5%;
+    height:8%;
+    z-index: 1;
+    top: 1.5%;
+    left: 8%;
+}
+
+@media screen and (max-width: 580px) {
+    .background img{
+    
+        position: absolute;
+        background-image: url("images/slot-background.png");
+        width: 90%;
+        height: 80%;
+        left: 5%;
+        z-index: 0;
+        top: 10%;
+    }
+        
+     
+.slots-container{
+    position: absolute;
+    width:99%;
+    height: 95%;
+    justify-content: center;
+    left: .2%;
+    top: .2%;
+  
+}
+.div-row img{
+   
+    height: 2%;
+    
+}
+
+.div-row2 img{
+    height: 2%;
+}
+
+.line-bet1 img{
+    
+    width: 5% ;
+    height: 8% ;
+}
+
+.line-bet2 img{
+  
+    width: 5% ;
+    height: 8% ;
+
+}
+
+.line-bet3 img{
+    width: 5% ;
+    height: 8% ;
+
+}
+
+.slot-1{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-2{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-3{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-4{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-5{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-6{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+
+.slot-7{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-8{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-9{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+        
+.volume{
+    width: 7%;
+    height:5%;
+    top: 2.5%;
+}
+.header h2{
+    position: relative;
+    color:rgba(255, 194, 91, 1) ;
+    font-size:24px ;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.lines-bet{
+    position: absolute;
+    left: 88%;
+    top: 92%;
+    color: white;
+    white-space: nowrap;
+    font-size: 80%;
+
+}
+
+.total-bet{
+    position: absolute;
+    left: 88%;
+    top: 95%;
+    color: white;
+    white-space: nowrap;
+    font-size: 70%;
+    z-index: 1;
+
+
+}
+
+.btn--roll{
+    
+    width: 20%;
+    height: 7%;
+    top: 91.5% ;
+    left: 65%;
+   
+    font-size: 70%;
+ 
+}
+
+
+
+.score {
+
+    padding: 1%;
+    left: 5%;
+    color: aliceblue;
+    font-size: 90%;
+    letter-spacing: 2px;
+    
+}
+
+.winnings{
+   
+    font-size: 90%;
+   
+}
+
+.restart {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    width: 9%;
+    height: 7%;
+    
+    
+}
+.restart img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: absolute;
+    position: absolute;
+    left: 27%;
+    top: 1.5%;
+    width:auto ;
+    height: 5%;
+    
+}
+}
+
+@media screen and (max-width: 380px) {
+    .background img{
+    
+        position: absolute;
+        background-image: url("images/slot-background.png");
+        width: 90%;
+        height: 80%;
+        left: 5%;
+        z-index: 0;
+        top: 10%;
+    }
+        
+     
+.slots-container{
+    position: absolute;
+    width:99%;
+    height: 95%;
+    justify-content: center;
+    left: .2%;
+    top: 1%;
+  
+}
+.div-row img{
+   
+    height: 2%;
+    
+}
+
+.div-row2 img{
+    height: 2%;
+}
+
+.line-bet1 img{
+    left: 2%;
+    width: 9% ;
+    height: 10% ;
+}
+
+.line-bet2 img{
+  
+    left: 2%;
+    width: 9% ;
+    height: 10% ;
+
+}
+
+.line-bet3 img{
+    left: 2%;
+    width: 9% ;
+    height: 10% ;
+
+}
+
+.slot-1{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-2{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-3{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-4{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-5{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-6{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+
+.slot-7{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-8{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-9{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+        
+.volume{
+    width: 7%;
+    height:5%;
+    top: 2.5%;
+}
+.header h2{
+    position: relative;
+    color:rgba(255, 194, 91, 1) ;
+    font-size:24px ;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.lines-bet{
+    position: absolute;
+    left: 86%;
+    top: 92%;
+    color: white;
+    white-space: nowrap;
+    font-size: 80%;
+
+}
+
+.total-bet{
+    position: absolute;
+    left: 86%;
+    top: 95%;
+    color: white;
+    white-space: nowrap;
+    font-size: 70%;
+    z-index: 1;
+
+
+}
+
+.btn--roll{
+    
+    width: 20%;
+    height: 7%;
+    top: 91.5% ;
+    left: 63%;
+   
+    font-size: 70%;
+ 
+}
+
+
+
+.score {
+
+    padding: 1%;
+    left: 5%;
+    color: aliceblue;
+    font-size: 90%;
+    letter-spacing: 2px;
+    
+}
+
+.winnings{
+    
+    font-size: 50%;
+    left: 38%;
+   
+}
+
+.restart {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    width: 9%;
+    height: 7%;
+    
+    
+}
+.restart img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: absolute;
+    position: absolute;
+    left: 22%;
+    top: .3%;
+    width:auto ;
+    height: 5%;
+    
+}
+
+}
+
+@media screen and (max-width: 350px) {
+    .background img{
+    
+        position: absolute;
+        background-image: url("images/slot-background.png");
+        width: 90%;
+        height: 80%;
+        left: 5%;
+        z-index: 0;
+        top: 10%;
+    }
+        
+     
+.slots-container{
+    position: absolute;
+    width:99.9%;
+    height: 95%;
+    justify-content: center;
+    left: .2%;
+    top: .2%;
+  
+}
+.div-row img{
+   
+    height: 2%;
+    
+}
+
+.div-row2 img{
+    height: 2%;
+}
+
+.line-bet1 img{
+    
+    width: 5% ;
+    height: 8% ;
+}
+
+.line-bet2 img{
+  
+    width: 5% ;
+    height: 8% ;
+
+}
+
+.line-bet3 img{
+    width: 5% ;
+    height: 8% ;
+
+}
+
+.slot-1{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-2{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-3{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-4{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-5{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-6{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+
+.slot-7{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-8{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-9{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+        
+.volume{
+    width: 7%;
+    height:5%;
+    top: 2.5%;
+}
+.header h2{
+    position: relative;
+    color:rgba(255, 194, 91, 1) ;
+    font-size:24px ;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.lines-bet{
+    position: absolute;
+    left: 88%;
+    top: 92%;
+    color: white;
+    white-space: nowrap;
+    font-size: 80%;
+
+}
+
+.total-bet{
+    position: absolute;
+    left: 88%;
+    top: 95%;
+    color: white;
+    white-space: nowrap;
+    font-size: 70%;
+    z-index: 1;
+
+
+}
+
+.btn--roll{
+    
+    width: 20%;
+    height: 7%;
+    top: 91.5% ;
+    left: 65%;
+   
+    font-size: 70%;
+ 
+}
+
+
+
+.score {
+
+    padding: 1%;
+    left: 5%;
+    color: aliceblue;
+    font-size: 90%;
+    letter-spacing: 2px;
+    
+}
+
+.winnings{
+   
+    font-size: 90%;
+   
+}
+
+.restart {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    width: 9%;
+    height: 7%;
+    
+    
+}
+.restart img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: absolute;
+    position: absolute;
+    left: 27%;
+    top: 1.5%;
+    width:auto ;
+    height: 5%;
+    
+}
+    }
+
+@media screen and (max-width: 1300px) {
+
+    .background img{
+        
+            position: absolute;
+            background-image: url("images/slot-background.png");
+            width: 90%;
+            height: 80%;
+            left: 5%;
+            z-index: 0;
+            top: 10%;
+        }
+            
+         
+    .slots-container{
+        position: absolute;
+        width:99.9%;
+        height: 95%;
+        justify-content: center;
+        left: .2%;
+        top: 1%;
+      
+    }
+    .div-row img{
+       
+        height: 2%;
+        
+    }
+    
+    .div-row2 img{
+        height: 2%;
+    }
+    
+    .line-bet1 img{
+        
+        width: 5% ;
+        height: 8% ;
+    }
+    
+    .line-bet2 img{
+      
+        width: 5% ;
+        height: 8% ;
+    
+    }
+    
+    .line-bet3 img{
+        width: 5% ;
+        height: 8% ;
+    
+    }
+    
+    .slot-1{
+        top: 12%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .slot-2{
+        top: 12%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .slot-3{
+        top: 12%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .slot-4{
+        top: 40%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .slot-5{
+        top: 40%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .slot-6{
+        top: 40%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    
+    .slot-7{
+        top: 70%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .slot-8{
+        top: 70%;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .slot-9{
+        top: 70%;
+        width: 15%;
+        height: 15%;
+    }
+            
+    .volume{
+        width: 7%;
+        height:5%;
+        top: 2.5%;
+    }
+
+    .header h2{
+        position: relative;
+        color:rgba(255, 194, 91, 1) ;
+        font-size:24px ;
+        width: 100%;
+        height: 100%;
+     
+    }
+    
+    .lines-bet{
+        position: absolute;
+        left: 83%;
+        top: 92%;
+        color: white;
+        white-space: nowrap;
+        font-size: 80%;
+    
+    }
+    
+    .total-bet{
+        position: absolute;
+        left: 83%;
+        top: 95%;
+        color: white;
+        white-space: nowrap;
+        font-size: 70%;
+        z-index: 1;
+    
+    
+    }
+    
+    .btn--roll{
+        
+        width: 20%;
+        height: 7%;
+        top: 91.5% ;
+        left: 60%;
+       
+        font-size: 70%;
+     
+    }
+    
+    
+    
+    .score {
+    
+        padding: 1%;
+        left: 5%;
+        color: aliceblue;
+        font-size: 90%;
+        letter-spacing: 2px;
+        
+    }
+    
+    .winnings{
+       
+        font-size: 40%;
+       
+    }
+    
+    .restart {
+        position: absolute;
+        left: 85%;
+        top: 2%;
+        width: 9%;
+        height: 7%;
+        
+        
+    }
+    .restart img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .header{
+        position: absolute;
+        position: absolute;
+        left: 25%;
+        top: 0%;
+        width:auto ;
+        height: 5%;
+        
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .background img{
+    
+        position: absolute;
+        background-image: url("images/slot-background.png");
+        width: 90%;
+        height: 80%;
+        left: 5%;
+        z-index: 0;
+        top: 10%;
+    }
+        
+     
+.slots-container{
+    position: absolute;
+    width:99.9%;
+    height: 96%;
+    justify-content: center;
+    left: .2%;
+    top: .2%;
+  
+}
+.div-row img{
+   
+    height: 2%;
+    
+}
+
+.div-row2 img{
+    height: 2%;
+}
+
+.line-bet1 img{
+    
+    width: 5% ;
+    height: 8% ;
+}
+
+.line-bet2 img{
+  
+    width: 5% ;
+    height: 8% ;
+
+}
+
+.line-bet3 img{
+    width: 5% ;
+    height: 8% ;
+
+}
+
+.slot-1{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-2{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-3{
+    top: 12%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-4{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-5{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-6{
+    top: 40%;
+    width: 15%;
+    height: 15%;
+}
+
+
+.slot-7{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-8{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+
+.slot-9{
+    top: 70%;
+    width: 15%;
+    height: 15%;
+}
+        
+.volume{
+    width: 7%;
+    height:5%;
+    top: 2.5%;
+}
+.header h2{
+    position: relative;
+    color:rgba(255, 194, 91, 1) ;
+    font-size:24px ;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.lines-bet{
+    position: absolute;
+    left: 88%;
+    top: 92%;
+    color: white;
+    white-space: nowrap;
+    font-size: 80%;
+
+}
+
+.total-bet{
+    position: absolute;
+    left: 88%;
+    top: 95%;
+    color: white;
+    white-space: nowrap;
+    font-size: 70%;
+    z-index: 1;
+
+
+}
+
+.btn--roll{
+    
+    width: 20%;
+    height: 7%;
+    top: 91.5% ;
+    left: 65%;
+   
+    font-size: 70%;
+ 
+}
+
+
+
+.score {
+
+    padding: 1%;
+    left: 5%;
+    color: aliceblue;
+    font-size: 90%;
+    letter-spacing: 2px;
+    
+}
+
+.winnings{
+   
+    font-size: 90%;
+   
+}
+
+.restart {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    width: 9%;
+    height: 7%;
+    
+    
+}
+.restart img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: absolute;
+    position: absolute;
+    left: 27%;
+    top: 1.5%;
+    width:auto ;
+    height: 5%;
+    
+}}
+
